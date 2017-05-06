@@ -1,0 +1,135 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Handlee|Droid+Sans');
+body{
+	background:#48767C;
+	color: #cccccc;
+	font-family: 'Droid Sans', sans-serif;
+}
+.title{
+text-align:center;
+	font-size: 76px;
+	margin-top:4px;
+}
+.score{
+	color:#000000;
+	position:absolute;
+	background:#F4F5DB;
+	margin-top: 12px;
+  width: 80px;
+	height: 100px;
+	border: 3px solid #742815;
+	left:525px;
+}
+h2{
+	color: #111111;
+	font-family: 'Handlee', serif;
+	text-align:center;
+	font-size: 150px;
+}
+.cover{
+	position: absolute;
+	left:600px;
+	top: 50px;
+	background:#68A9B2;
+	opacity: 0.45;
+	width: 700px;
+	height:700px;
+	z-index: 1;
+}
+.select, .endGame{
+	text-align: center;
+	position: absolute;
+	left:800px;
+	top: 275px;
+	background:#E7E8E8;
+	width:300px;
+	height:200px;
+	z-index: 2;
+	border: 3px solid #222222;
+	
+}
+.selectmessage{
+	color:#000000;
+	font-size:20px;
+	margin-top:24px;
+}
+.winMessage{
+	color: #000000;
+	font-size:36px;
+	margin-top:15px
+}
+button{
+	width:75px;
+	height:50px;
+	font-size:34px;
+}
+button#selectX,  button#selectO{
+	background:#842E00;
+	margin-top:20px;
+	color: #eeeeee;
+}
+button#selectX{
+	margin-right:36px;
+}
+button#selectO{
+	margin-left:36px;
+}
+button#restart{
+	width:115px;
+	margin-top: 25px;
+	font-size:28px;
+	border: 2px solid #000049;
+	background:#842E00;
+	color: #eeeeee;
+}
+.board{
+	border: 15px solid #742815;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12px;
+	width: 504px;
+	height:504px;
+	background: #000000;
+}
+.box{
+	position:relative;
+	height: 150px;
+	width: 150px;
+	background: #F4F5DB;
+}
+.TL{
+	
+}
+.TC{
+	left: 175px;
+  bottom:150px;
+}
+.TR{
+ left: 354px;
+ bottom:300px;
+}
+.CL{
+ bottom: 275px;
+}
+.CC{
+  left: 175px;
+	bottom:425px;
+}
+.CR{
+	left: 354px;
+	bottom: 575px;
+}
+.BL{
+  bottom:546px;
+	}
+.BC{
+	left: 175px;
+	bottom:696px;
+}
+.BR{
+	bottom:846px;
+	left: 354px;
+}
+.isHidden{
+	display: none;
+}

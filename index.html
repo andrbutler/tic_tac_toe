@@ -1,0 +1,30 @@
+ <head>
+    <meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Tic-Tac-Toe</title>
+	<link href='main.css' rel ='stylesheet'>
+</head>
+<body>
+<div class = 'cover'></div>
+<div class = 'endGame isHidden'>
+<h1 class = 'winMessage'></h1>
+<button id = 'restart'>Again?</button>
+</div>
+<div class = 'select'>
+<h1 class ='selectmessage'>Would You like to play as X or O?</h1>
+<button id= 'selectX'>X</button><button id= 'selectO'>O</button></div>
+<h1 class = 'title'>Tic-Tac-Toe</h1>
+<div class = 'score'>
+<h1>Player: <h1 class = 'pWins'>0</h1></h1><h1>Draw: <h1 class = 'draws'>0</h1></h1>
+<h1>Computer: <h1 class = 'cWins'>0</h1></h1>
+</div>
+<div class= 'board'>
+<h2 class='TL box'></h2><h2 class='TC box'></h2><h2 class='TR box'></h2>
+<h2 class='CL box'></h2><h2 class='CC box'></h2><h2 class='CR box'></h2>
+<h2 class='BL box'></h2><h2 class='BC box'></h2><h2 class='BR box'></h2>
+</div>
+
+<script src='jquery-3.1.1.min.js'></script>
+<script src='Tic_Tac_Toe.js'></script>
+</body>
