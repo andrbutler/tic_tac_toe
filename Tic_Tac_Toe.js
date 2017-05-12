@@ -196,7 +196,7 @@ function compTurn(){
 			}
 		}
 	}
-	if(turnNum == 6 && player == 'X'){
+	if(turnNum == 6){
 		if($('.CC').text() == player){
 			if($('.BR').text() == comp && $('.BC').text() == comp && $('.BL').text() == ''){
 			$('.BL').text(comp);	
@@ -307,8 +307,7 @@ function compTurn(){
 				$('.BL').text(comp);
 			}else if($('.TC').text() == player){
 				$('.BC').text(comp);
-			}
-			else if($('.BL').text() == player){
+			}else if($('.BL').text() == player){
 				$('.TR').text(comp);
 			}else if($('.TR').text() == player){
 				$('.BL').text(comp);
@@ -383,6 +382,8 @@ function compTurn(){
 			$('.TC').text(comp);
 			}else if($('.CR').text() == player && $('.CL').text() == ''){
 			$('.CL').text(comp);
+			}else if($('.BC').text() == ''){
+				$('.BC').text(comp);
 			}
 		}else{
 			if($('.BR').text() == comp && $('.TL').text() == ''){
