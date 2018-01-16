@@ -306,7 +306,11 @@ function compTurn(){
 			if($('.BL').text() == '' && $('.BC').text() == comp){
 				$('.BL').text(comp);
 			}else if($('.TC').text() == player){
+                            if ($('.BC').text() == comp) {
+				$('.TR').text(comp);
+                            }else{
 				$('.BC').text(comp);
+                            }
 			}else if($('.BL').text() == player){
 				$('.TR').text(comp);
 			}else if($('.TR').text() == player){
